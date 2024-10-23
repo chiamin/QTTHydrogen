@@ -1,0 +1,14 @@
+# 
+#                                _link_conj
+#          link_conj -----(Adag)----- 
+#                            |       |
+#   TOUT =                   |i     (R)
+#                            |       |
+#                link ------(A)------
+#                                _link
+#
+R:   _link, _link_conj
+A:    link, i, _link
+Adag: link_conj, i, _link_conj
+TOUT: link, link_conj
+ORDER: ((R,A),Adag)
